@@ -1,13 +1,24 @@
-# 📂 PDF Master Merger v1.0
-
-A high-performance, cross-platform tool to merge multiple PDFs into one. Simple, fast, and secure.
+## 💻 System Requirements
+* **OS:** Windows 10/11 (or macOS/Linux).
+* **Python:** 3.7 or higher.
+* **Libraries:** `pypdf` and `rich` (**Automated setup included**).
 
 ---
 
-## 💻 System Requirements
-* **Python:** 3.7 or higher.
-* **OS:** Windows, macOS, or Linux.
-* **Libraries:** `pypdf` and `rich` (**Automated setup included**).
+## 🛠 Step 0: Install Python (Windows)
+
+If you don't have Python installed, follow these steps:
+
+1. **Download:** Go to the official [Python.org Downloads](https://www.python.org/downloads/windows/) page.
+2. **Run Installer:** Download the "Windows installer (64-bit)" and run it.
+3. **CRITICAL STEP:** On the first screen of the installer, check the box that says **"Add Python to PATH"**. 
+   > *If you miss this, the `python` command will not work in your terminal.*
+4. **Install Now:** Click "Install Now" and wait for it to finish.
+5. **Verify:** Open **PowerShell** or **Command Prompt** and type:
+   ```powershell
+   python --version
+   ```
+   If it returns `Python 3.x.x`, you are ready to go.
 
 ---
 
